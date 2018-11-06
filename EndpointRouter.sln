@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EndpointRouter", "src\EndpointRouter.csproj", "{7DBB8F71-F538-424C-846A-97A25AB11EFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F145DCA3-D4C8-4F6C-BFAD-01B8654EA74B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6FC3D8C2-C0CA-41C5-9D9C-E4A390D5F7C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F4E593B7-BDED-45D2-8C50-1CD3569E8D49}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{79F263BE-F62C-46F2-9D46-339BAD316E31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndpointRouterDemo", "demo\EndpointRouterDemo.csproj", "{0F2DFD14-DC2B-41D0-820C-A423C4493421}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DBB8F71-F538-424C-846A-97A25AB11EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBB8F71-F538-424C-846A-97A25AB11EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBB8F71-F538-424C-846A-97A25AB11EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBB8F71-F538-424C-846A-97A25AB11EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2DFD14-DC2B-41D0-820C-A423C4493421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2DFD14-DC2B-41D0-820C-A423C4493421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2DFD14-DC2B-41D0-820C-A423C4493421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2DFD14-DC2B-41D0-820C-A423C4493421}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7DBB8F71-F538-424C-846A-97A25AB11EFC} = {F145DCA3-D4C8-4F6C-BFAD-01B8654EA74B}
+		{0F2DFD14-DC2B-41D0-820C-A423C4493421} = {79F263BE-F62C-46F2-9D46-339BAD316E31}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A56951D2-6063-4B04-A72D-A5A5E5F147D7}
+	EndGlobalSection
+EndGlobal
